@@ -2,7 +2,7 @@
 
 # ============ DARK TUNNEL FULL VPN ============
 SOCKS_PORT=1080
-BUG_HOST="arcotw.icicibank.com"
+BUG_HOST="BUG_HOST"
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -96,6 +96,7 @@ else
 fi
 echo -e "  All traffic via:  ${CYAN}$BUG_HOST${NC}"
 echo -e "${YELLOW}  Press Ctrl+C to disconnect${NC}"
+echo -e "${ORANGE}  Script By Genith-Utkarsh${NC}"
 echo -e "${GREEN}================================================${NC}"
 
 # Keep running
