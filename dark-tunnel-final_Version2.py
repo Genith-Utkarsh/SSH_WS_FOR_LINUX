@@ -14,12 +14,12 @@ import signal
 
 # ============ CONFIGURATION ============
 # SSH Account
-SSH_HOST = "us1.sshws.net"
-SSH_USER = "fastssh.com-sha023"
-SSH_PASS = "popopo123"
+SSH_HOST = "SSH_HOST"
+SSH_USER = "SSH_USER_NAME"
+SSH_PASS = "SSH_PASSWORD"
 
 # Bug Host (zero-rated by ISP)
-BUG_HOST = "arcotw.icicibank.com"
+BUG_HOST = "SNI_BUG_HOST"
 
 # Ports
 LOCAL_PORT = 8989
